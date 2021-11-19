@@ -105,6 +105,7 @@ body{
     display: flex;
     
 }
+/*<!--The part where I had a problem-->*/
 
 .intro{
   
@@ -126,7 +127,7 @@ body{
    height: 100%;
 }
 
-
+/*<!--FINISH-The part where I had a problem-->*/
 
              
 .article{
