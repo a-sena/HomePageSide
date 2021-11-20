@@ -288,8 +288,10 @@ font-family: 'Oswald', sans-serif;
    #content{
       grid-area: content;
       display: grid;
-      grid-template-rows: auto 1fr ;
+      /*grid-template-rows: auto 1fr ;*/
       background: lightgrey;
+     width:100%;
+     height:80%
  
   }
   .intro{
