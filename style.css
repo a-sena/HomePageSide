@@ -279,8 +279,8 @@ font-family: 'Oswald', sans-serif;
        "content"
        "footer";
        height: auto;
-       grid-template-columns: 1fr;
-       grid-template-rows: 150px 1fr auto;
+      /* grid-template-columns: 1fr;
+       grid-template-rows: 150px 1fr auto;*/
    
    }
    #content{
