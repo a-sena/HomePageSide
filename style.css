@@ -35,7 +35,6 @@ body{
   padding-top: 60px;
   border: 1px dotted black;
   
-  
 }
 
 .sidebar a {
@@ -106,22 +105,25 @@ body{
     display: flex;
     
 }
- .intro {
- display: flex;
-    flex-direction: row;
-    align-items: center;
-    position: relative;
-    background: grey;
+
+.intro{
+  
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   position: relative;
+   background: grey;
+     
 }
-  .intro::before {
-    content: "";
-    opacity: 0.4;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-    background: url(1homepage.jpg) center center / cover no-repeat;
+.intro:before{
+   content: '';
+   background: url(./images/1homepage.jpg) no-repeat center center/cover;
+   opacity: 0.4;
+   position: absolute;
+   top:0;
+   left: 0;
+   width: 100%;
+   height: 100%;
 }
 
 
@@ -206,7 +208,7 @@ font-family: 'Oswald', sans-serif;
   text-decoration: none;
 
 }
-.article .contentBox .buttoan h5 {
+.article .contentBox .button h5 {
   margin: auto;
   margin-top: 40px;
 }
@@ -284,27 +286,29 @@ font-family: 'Oswald', sans-serif;
    #content{
       grid-area: content;
       display: grid;
-      background: lightgrey;
      width:100%;
-     height:80%
+     height:80%;
+      background: lightgrey;
  
   }
-  .intro {
- display: flex;
-    flex-direction: row;
-    align-items: center;
-    position: relative;
-    background: grey;
+  .intro{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   position: relative;
+   background: grey;
+     
 }
-  .intro::before {
-    content: "";
-    opacity: 0.4;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-    background: url(1homepage.jpg) center center / cover no-repeat;
+
+.intro:before{
+   content: '';
+   background: url(./images/1homepage.jpg) no-repeat center center/cover;
+   opacity: 0.4;
+   position: absolute;
+   top:0;
+   left: 0;
+   width: 100%;
+   height: 100%;
 }
 .article{
    display: grid;
