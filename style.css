@@ -279,7 +279,8 @@ font-family: 'Oswald', sans-serif;
    body{
        display: grid;
        height: auto;
-
+       grid-template-columns: 1fr;
+       grid-template-rows: 100px 1fr auto;
 
    }
    #content{
@@ -287,6 +288,7 @@ font-family: 'Oswald', sans-serif;
       display: grid;
 width: 100%;
       height: 80%;
+  
  
   }
   .intro{
@@ -351,13 +353,15 @@ width: 100%;
       display: grid;
 
       height: auto;
-    
+      grid-template-columns: 1fr;
+      grid-template-rows: 100px 1fr auto;
  
   }
 
    #content{
       grid-area: content;
       display: grid;
+    
 
       width: 100%;
       height: 80%;
