@@ -18,7 +18,6 @@
     .sidebar a {font-size: 18px;}
   }
   </style>
-  
   <script>
     function openNav() {
       document.getElementById("mySidebar").style.width = "250px";
@@ -41,19 +40,20 @@
 
     <div id="mySidebar" class="sidebar">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav();showMenu();">x</a>
-      <a href="#">Welcome</a>
-      <a href="#">Accessibility</a>
-      <a href="#">Topical info</a>
-      <a href="#">Fun</a>
+      <a id="welcome" href="index.html">Welcome</a>
+      <a id="reflectionessay" href="Reflectionessay.html">Reflection Essay</a>
+      <a id="accessibility" href="Accessibility.html">Accessibility</a>
+      <a id="topicalinfo" href="topicalinfo.html">Topical info</a>
+      <a id="fun" href="fun.html">Fun</a>
     </div>
     <header class="header">
     <div id="main">
       <button class="openbtn" id = "hidden"; onclick="openNav();hiddenMenu();">☰</button>  
     </div>
-    <img class="logo"src="oslomet.png">
+    <a href="index.html"><img class="logo" src="images/oslomet.png" /></a>
     </header>
 
-
+  <div id="header"></div>
     <div id="content">
    
 <div class="intro"></div> 
@@ -61,27 +61,27 @@
 <div class="article">
     <div class="contentTittel"><h3>WELCOME!</h3></div>
     <div class="contentBox">
-      <img src="3Homepage.jpg" alt="">
+      <img src="images/firstyearat.jpg" alt="">
             <div class="boxInclusive">
                 <h3>Study At OsloMet? </h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque aperiam porro possimus nulla? Illo repellendus dolore, debitis, rerum quasi sequi natus temporibus odit veritatis tenetur corporis deleniti illum atque repellat.</p>       
-                <a href="#" class="button"><h5>READ MORE</h5></a>
+                <p>This website has been created by a group of students of the technology and engineering department to present you with the experiences we gained in our first year as a student at Oslo Metropolitan University, and to provide advice on both university and student life.</p>       
+                <a href="#" class="button"><h5>DISCOVER </h5></a>
               </div>
            
 </div>
 <div class="contentBox">
   <div class="boxInclusive">
    
-          <h3>Life As Student</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque aperiam porro possimus nulla? Illo repellendus dolore, debitis, rerum quasi sequi natus temporibus odit veritatis tenetur corporis deleniti illum atque repellat.</p>
-          <a href="#" class="button"><h5>READ MORE</h5></a>
+          <h3>How would you define Fake News?</h3>
+          <p>Fake news is a term that is used to describe news-like stories that often seem real, but that are in fact wholly or partly fabricated or that have omitted information in order to create a particular skew.Click to find out how our student group defines the term fake news.</p>
+          <a href="#" class="button"><h5> READ MORE</h5></a>
            </div>
 </div>
 <div class="contentBox">
-  <img src="3Homepage.jpg" alt="">
+  <img src="images/3Homepage.jpg" alt="">
   <div class="boxInclusive">
-      <h3>Learning to Code </h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque aperiam porro possimus nulla? Illo repellendus dolore, debitis, rerum quasi sequi natus temporibus odit veritatis tenetur corporis deleniti illum atque repellat.</p>
+      <h3>Being A Student Rather Than A Pupil </h3>
+      <p>One of the biggest differences going from upper-secondary school to a university is that you now are an adult. With that usually comes more responsibility. Many move out from their parent’s house for the first time and had to live on their own. This is not cheap and the student loan is limited so many find the need to work to make the economy go around...</p>
       <a href="#" class="button"><h5>READ MORE</h5></a>
     </div>
 </div>
@@ -90,13 +90,15 @@
   <div class="boxInclusive">
   
       <h3>Schedule Your Own Learning</h3>
+      <img src="images/Elvin.jpg" alt="">
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque aperiam porro possimus nulla? Illo repellendus dolore, debitis, rerum quasi sequi natus temporibus odit veritatis tenetur corporis deleniti illum atque repellat.</p>
-      <a href="#" class="button"><h5>READ MORE</h5></a>
+  
+       <a href="#" class="button"><h5>READ MORE</h5></a>
      </div>
-  <img src="Elvin.jpg" alt="">
+
 </div>
 <div class="contentBox">
-  <img src="3Homepage.jpg" alt="">
+  <img src="images/3Homepage.jpg" alt="">
         <div class="boxInclusive">
             <h3>Lorem Ipsum</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque aperiam porro possimus nulla? Illo repellendus dolore, debitis, rerum quasi sequi natus temporibus odit veritatis tenetur corporis deleniti illum atque repellat.</p>
@@ -105,14 +107,14 @@
 </div>
 <div class="contentBox">
         <div class="boxInclusive">
-                <h3>How would you define Fake News?</h3>
-                <p>Fake news is a term that is used to describe news-like stories that often seem real, but that are in fact wholly or partly fabricated or that have omitted information in order to create a particular skew.Click to find out how our student group defines the term fake news.</p>
+                <h3>What can you do as an individual to help tackle the problem of mis- and disinformation on the internet, both in terms of your personal and your professional life?</h3>
+                <p>Over the past years it has been common with fake news online. An example of this can be the misinformation being published about covid-19. But how is someone supposed to understand whether it is fake news or further spreading of previously stated news?</p>
                 <a href="#" class="button"><h5>READ MORE</h5></a>
               </div>
 </div>
 
 <div class="contentBox">
-  <img src="3Homepage.jpg" alt="">
+  <img src="images/3Homepage.jpg" alt="">
         <div class="boxInclusive">
             <h3>Lorem Ipsum</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque aperiam porro possimus nulla? Illo repellendus dolore, debitis, rerum quasi sequi natus temporibus odit veritatis tenetur corporis deleniti illum atque repellat.</p>
@@ -120,7 +122,48 @@
            </div>
 </div>
 </div>
+</div>
+<footer>
+  <ul class="SoMe">
+    <li>
+      <a href="https://www.facebook.com/"
+        ><ion-icon name="logo-facebook"></ion-icon
+      ></a>
+    </li>
+    <li>
+      <a href="https://www.instagram.com/"
+        ><ion-icon name="logo-instagram"></ion-icon
+      ></a>
+    </li>
+    <li>
+      <a href="https://www.linkedin.com/"
+        ><ion-icon name="logo-linkedin"></ion-icon
+      ></a>
+    </li>
+    <li>
+      <a href="https://twitter.com/"
+        ><ion-icon name="logo-twitter"></ion-icon
+      ></a>
+    </li>
+  </ul>
+  <ul class="foot_menu">
+    <li><a href="index.html">Welcome</a></li>
+    <li><a href="Reflectionessay.html">Reflection</a></li>
+    <li><a href="#">Accessibility</a></li>
+    <li><a href="#">Topical info</a></li>
+    <li><a href="fun.html">Fun</a></li>
+  </ul>
+</footer>
 
+<!-- SCRIPT AND ICONS TAKEN FROM IONIC.IO/IONICONS-->
+<script
+  type="module"
+  src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+></script>
+<script
+  nomodule
+  src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+></script>
 
 </body>
 </html>
